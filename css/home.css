@@ -1,0 +1,15 @@
+#navbarNav  ul ,li{
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    list-style-type: none; /* removes bullet points */
+    width: 100%; /* makes the list take up the full width of its parent */
+    display: flex; /* makes the list items display in a row */
+    justify-content: space-between; /* adds space between the list items */
+}
+
+li {
+    padding: 0.5em; /* adds some space around each list item */
+}
