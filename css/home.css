@@ -1,7 +1,23 @@
+.navbar {
+    background: rgb(255,255,255);
+   
+}
+.navbar img{
+    width: 60px;
+    height: 50px;
+}
+
+
+#carouselExampleIndicators img{
+    width: 100%;
+    height: 500px;
+}
 #navbarNav  ul ,li{
-    background-color: #f8f9fa;
+    
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 ul {
     list-style-type: none; /* removes bullet points */
@@ -29,3 +45,10 @@ li {
     background: #d67d4d;
     text-decoration: none;
   }
+
+.logo{
+    width: 100px;
+    background-image: none;
+    height: 90px;
+    margin-left: 10px;
+}
