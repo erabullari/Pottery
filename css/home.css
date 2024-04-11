@@ -6,6 +6,14 @@
     width: 60px;
     height: 50px;
 }
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    margin: 10px 0;
+}
 
 
 #carouselExampleIndicators img{
@@ -52,6 +60,7 @@ li {
     height: 90px;
     margin-left: 10px;
 }
+<<<<<<< HEAD
 .div1 p{
     text-align: left;
     font-size: 20px;
@@ -77,3 +86,106 @@ li {
   .photo1{
     padding: 41px;
   } 
+=======
+footer{
+    margin-top: 20px;
+    background-color: #23242d;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.rights{
+    color: white;
+    font-size: 20px;
+   
+  
+  width: 100%;
+}
+.footer-corporate {
+    position: static; /* or position: relative; */
+    height: 230px;
+   
+}
+
+
+
+
+/* Responsiviteti */
+
+@media screen and (min-width: 500px) {
+    body{
+        
+        
+    }
+    p{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    body{
+   
+    }
+    p{
+        font-size: 20px;
+    }
+    h1{
+       
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    body{
+    
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 321px)  and (max-width: 768px){
+    body{
+  
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 769px)  and (max-width: 1024px){
+    body{
+       
+    p{
+        font-size: 20px;
+    }
+}
+
+}
+
+.footer-corporate-bottom-panel {
+    background-color: #23242d;
+  
+   
+}
+
+    
+
+
+.footer-corporate-bottom-panel p {
+    margin: 0;
+    font-size: 12px;
+    color: rgb(91, 90, 90);
+    background-color: #23242d;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 4px;
+}
+#texti{
+    color: white;
+text-decoration: none;
+
+}
+>>>>>>> 57d0535251d1773a578d6fdcee7e2dfc4b169930
