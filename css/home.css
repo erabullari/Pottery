@@ -60,33 +60,6 @@ li {
     height: 90px;
     margin-left: 10px;
 }
-<<<<<<< HEAD
-.div1 p{
-    text-align: left;
-    font-size: 20px;
-    font-family: Arial, sans-serif;
-    padding: 30px; /* Padding around the text */
-    margin-top: 141px;
-    margin-right: 259px;
-    margin-left: 60px;
-
-}
-
-  .div1 {
-    flex: 1; /* Take up 1 part of the available space */
-    padding: 20px; /* Add some padding */
-
-  }
-  
-  .photo1 img {
-   height: 550px;
-   width: 550px;
-   
-  }
-  .photo1{
-    padding: 41px;
-  } 
-=======
 footer{
     margin-top: 20px;
     background-color: #23242d;
@@ -188,4 +161,62 @@ footer{
 text-decoration: none;
 
 }
->>>>>>> 57d0535251d1773a578d6fdcee7e2dfc4b169930
+.section0{
+    background-color: #F2EFE5;
+    width: 600px;
+    height: 500px;
+    margin:10px auto;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.section0 img{
+    widh: 100px;
+    height: 250px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px; 
+}
+.caroseldiv{
+align-items: center;
+justify-content: center;
+margin: 8px 10px 8px 50px;
+
+}
+.caroseldiv p{
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+   
+}
+.caroseldiv h1{
+    
+    margin-left: 30%;
+   
+}
+/* soni's work*/
+
+.div1 p{
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    padding: 30px; /* Padding around the text */
+    margin-top: 141px;
+    margin-right: 259px;
+    margin-left: 60px;
+
+}
+
+  .div1 {
+    flex: 1; /* Take up 1 part of the available space */
+    padding: 20px; /* Add some padding */
+
+  }
+  
+  .photo1 img {
+   height: 550px;
+   width: 550px;
+   
+  }
+  .photo1{
+    padding: 41px;
+  } 
+  
