@@ -1,7 +1,23 @@
+.navbar {
+    background: rgb(255,255,255);
+   
+}
+.navbar img{
+    width: 60px;
+    height: 50px;
+}
+
+
+#carouselExampleIndicators img{
+    width: 100%;
+    height: 500px;
+}
 #navbarNav  ul ,li{
-    background-color: #f8f9fa;
+    
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 ul {
     list-style-type: none; /* removes bullet points */
@@ -29,3 +45,35 @@ li {
     background: #d67d4d;
     text-decoration: none;
   }
+
+.logo{
+    width: 100px;
+    background-image: none;
+    height: 90px;
+    margin-left: 10px;
+}
+.div1 p{
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    padding: 30px; /* Padding around the text */
+    margin-top: 141px;
+    margin-right: 259px;
+    margin-left: 60px;
+
+}
+
+  .div1 {
+    flex: 1; /* Take up 1 part of the available space */
+    padding: 20px; /* Add some padding */
+
+  }
+  
+  .photo1 img {
+   height: 550px;
+   width: 550px;
+   
+  }
+  .photo1{
+    padding: 41px;
+  } 
