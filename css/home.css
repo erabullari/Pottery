@@ -37,22 +37,6 @@ ul {
 li {
     padding: 0.5em; /* adds some space around each list item */
 }
-.btn {
-    -webkit-border-radius: 31;
-    -moz-border-radius: 31;
-    border-radius: 31px;
-    font-family: Georgia;
-    color: #ffffff;
-    font-size: 21px;
-    background: #945932;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-  }
-  
-.btn:hover {
-    background: #d67d4d;
-    text-decoration: none;
-  }
 
 .logo{
     width: 100px;
@@ -219,29 +203,41 @@ margin: 8px 10px 8px 50px;
 }
 /* soni's work*/
 
-.div1 p{
-    text-align: left;
-    font-size: 20px;
-    font-family: Arial, sans-serif;
-    padding: 30px; /* Padding around the text */
-    margin-top: 141px;
-    margin-right: 259px;
-    margin-left: 60px;
 
-}
 
   .div1 {
     flex: 1; /* Take up 1 part of the available space */
     padding: 20px; /* Add some padding */
+    margin:  20px 30px;
 
   }
   
   .photo1 img {
-   height: 550px;
-   width: 550px;
+   height: 500px;
+   width: 450px;
+   margin-left: 30px;
+   margin-right: 25px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
    
   }
   .photo1{
     padding: 41px;
   } 
   
+
+  .div1 h1{
+    color: #3D0C11;
+    margin: 30px 20px 30px 60px;
+    font-family:cursive;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .div1 p{
+    margin: 30px 20px 30px 60px;
+    font-family: cursive;
+    font-size: 18px;
+  }
+
