@@ -83,7 +83,32 @@ footer{
    
 }
 
-
+/*fixing the text at the event part */
+.card-body{
+    text-align: center;
+}
+.card-title{
+    font-weight: 600;
+    font-family: Georgia, serif ;
+}
+.card-text{
+    font-family: cursive;
+}
+.card-img-top {
+    width: 100%;
+    height: 195px;
+  }
+.event-text p {
+    font-size: 16px;
+    font-family: cursive;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.event-text h5{
+    padding: 0;
+    margin: 0;
+}
 
 
 /* Responsiviteti */
