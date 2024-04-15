@@ -226,9 +226,8 @@ margin: 8px 10px 8px 50px;
     padding: 41px;
   } 
   
-<<<<<<< HEAD
   /*ina's work */
-  .carousel-item img {
+  .inaCarosel img {
     width: 600px;
     margin: 15px;
     height: 500px ;
@@ -236,6 +235,9 @@ margin: 8px 10px 8px 50px;
     border-radius: 20px;
     
   }
+#carouselExample{
+    margin-top: 100px;
+}
   .carousel-item p{
     font-size: 15px;
     margin:25px  ;
@@ -286,7 +288,6 @@ margin: 8px 10px 8px 50px;
   .element-text1 h4{
     text-align: center;
   }
-=======
 
   .div1 h1{
     color: #3D0C11;
@@ -303,4 +304,3 @@ margin: 8px 10px 8px 50px;
     font-size: 18px;
   }
 
->>>>>>> 002159e2ddb6e2746fe9fba45e73ccca64d09cb1
