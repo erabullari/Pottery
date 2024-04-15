@@ -227,7 +227,7 @@ margin: 8px 10px 8px 50px;
   } 
   
   /*ina's work */
-  .carousel-item img {
+  .inaCarosel img {
     width: 600px;
     margin: 15px;
     height: 500px ;
@@ -235,6 +235,9 @@ margin: 8px 10px 8px 50px;
     border-radius: 20px;
     
   }
+#carouselExample{
+    margin-top: 100px;
+}
   .carousel-item p{
     font-size: 15px;
     margin:25px  ;
