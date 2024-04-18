@@ -257,7 +257,7 @@ margin: 8px 10px 8px 50px;
   } 
   
   /*ina's work */
-  .inaCarosel img {
+  .carousel-item img {
     width: 600px;
     margin: 15px;
     height: 500px ;
@@ -326,7 +326,6 @@ margin: 8px 10px 8px 50px;
   .element-text1 h4{
     text-align: center;
   }
-
   .div1 h1{
     color: #3D0C11;
     margin: 50px 20px 30px ;
