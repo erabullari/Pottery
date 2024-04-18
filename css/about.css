@@ -108,3 +108,33 @@
     height: 500px;
 }
 
+.section2 img{
+ width: 400px;
+ height: 500px;
+ margin: 100px 80px 150px;
+ border-radius: 30px;
+ box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
+}
+.section2 div{
+	width: 40%;
+	margin-left: 100px;
+	margin-top: 150px;
+}
+
+.section3 img{
+	border-radius: 45%;
+	width: 250px;
+}
+.section3 p{
+	width: 60%;
+	float: right;
+	
+}
+.section3 {
+	padding-right: 40px;
+	padding: 40px 50px;
+	background-color:#F6F5F2 ;
+}
+.section3 div{
+	margin-top: 20px;
+}
