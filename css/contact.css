@@ -6,6 +6,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: url('/img/WhatsApp\ Image\ 2024-04-18\ at\ 12.50.06.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100vw;
   }
   
 header {
@@ -33,7 +36,15 @@ header {
   .header1 {
     text-align: center;
     font-size: 1.5em;
+   
   }
+  .get-in-touch {
+    padding: 20px;
+    margin-top: 20px; /* Add margin to create space from the text above */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
   
   .information {
     margin-top: 50px;
@@ -45,7 +56,7 @@ header {
   }
   
   .contact-us {
-    background-color: antiquewhite;
+    
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
