@@ -294,8 +294,7 @@ margin: 8px 10px 8px 50px;
 }
 
 /* Responsiviteti */
-
-@media screen and (min-width: 412px) {
+@media screen and (max-width: 412px) {
     .secondcontainer{
         margin-top: 0px;
        padding-left: 10px;
