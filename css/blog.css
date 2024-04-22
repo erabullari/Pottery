@@ -98,5 +98,73 @@
     content: "";
     width: 350px;
   }
+  .container12 {
+    position: relative;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
   
+  .image {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(255, 255, 255, 0.5);
+    
+  }
+  
+  .container12:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color:#765827;
+    font-size: 15px;
+    font-style: italic ;
+    font-weight: bold;
+    position:inherit;
+    font-family: Garamond (serif);
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align:justify;
+  }
+  
+  .h2blog{
+
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+   
+    color: black;
+    
+    font-family:Brush Script MT,Brush Script Std,cursive;
+    font-style: oblique;
+    border-bottom: 1px solid #0a0a23;
+  }
   

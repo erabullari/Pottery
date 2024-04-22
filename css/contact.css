@@ -2,19 +2,23 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: url('/img/WhatsApp\ Image\ 2024-04-18\ at\ 12.50.06.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100vw;
   }
   
+  
 header {
-    position: fixed;
+    
     top: 0;
     left: 0;
     width: 100%;
     text-align: center;
-    padding: 10px 0;
+   
     z-index: 1000; /* Ensure the nav is above other content */
 }
   
@@ -33,7 +37,15 @@ header {
   .header1 {
     text-align: center;
     font-size: 1.5em;
+   
   }
+  .get-in-touch {
+    padding: 20px;
+    margin-top: 20px; /* Add margin to create space from the text above */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
   
   .information {
     margin-top: 50px;
@@ -43,9 +55,12 @@ header {
     font-size: 1.2em;
     
   }
+ ul ,li{
+  list-style-type: none; 
   
+ } 
   .contact-us {
-    background-color: antiquewhite;
+    
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -73,9 +88,10 @@ header {
     margin-top: auto;
     background-color: #23242d;
     color: white;
-    text-align: center;
+    line-height: 2.4;
     padding: 20px;
     margin-top: 300px;
+    margin-bottom: 0%;
   }
   
   .rights {
@@ -83,7 +99,8 @@ header {
   }
   
   .footer-corporate {
-    height: 200px;
+    height: 300px;
+       
   }
   
   #texti {
@@ -98,3 +115,7 @@ header {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   }
   
+  .footer-corporate-bottom-panel{
+    background-color: #23242d;
+    margin: 0%;
+  }
