@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('/img/WhatsApp\ Image\ 2024-04-18\ at\ 12.50.06.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+  }
+  
+  
+header {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+   
+    z-index: 1000; /* Ensure the nav is above other content */
+}
+  
+  .main-part {
+    padding: 50px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder; 
+  }
+  .main-part h2 {
+    text-align: center;
+    font-weight: bolder; 
+  }
+  
+  .header1 {
+    text-align: center;
+    font-size: 1.5em;
+   
+  }
+  .get-in-touch {
+    padding: 20px;
+    margin-top: 20px; /* Add margin to create space from the text above */
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+  
+  .information {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    font-size: 1.2em;
+    
+  }
+ ul ,li{
+  list-style-type: none; 
+  
+ } 
+  .contact-us {
+    
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-us1 {
+    text-align: center;
+    font-size: 1.5em;
+   
+  }
+  
+  
+  .form-group {
+    margin-bottom: 30px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  footer {
+    margin-top: auto;
+    background-color: #23242d;
+    color: white;
+    line-height: 2.4;
+    padding: 20px;
+    margin-top: 300px;
+    margin-bottom: 0%;
+  }
+  
+  .rights {
+    font-size: 14px;
+  }
+  
+  .footer-corporate {
+    height: 300px;
+       
+  }
+  
+  #texti {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .section0 {
+    background-color: #F2EFE5;
+    margin: 10px auto;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .footer-corporate-bottom-panel{
+    background-color: #23242d;
+    margin: 0%;
+  }

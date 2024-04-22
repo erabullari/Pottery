@@ -1,121 +1,322 @@
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url('/img/pexels-eustathia-t-213164514-13058497.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+} 
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust the opacity by changing the alpha value (0.5 in this example) */
+  z-index: -1; /* Ensure the pseudo-element is behind the content */
+}
 
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-image: url('/img/WhatsApp\ Image\ 2024-04-18\ at\ 12.50.06.jpeg');
-    background-repeat: no-repeat;
-    background-size: 100vw;
-  }
+.navbar {
+  background-color: rgba(8, 4, 81, 0.894);
+ 
+}
+.navbar img{
+  width: 86px;
+  height: 56px;
+  margin-left: 15px;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding-right: 50px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+
+
+#navbarNav  ul ,li{
   
-  
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 header {
-    
-    top: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-   
-    z-index: 1000; /* Ensure the nav is above other content */
+  top: 0;
+  left: 0;
+  text-align: center;
+  z-index: 1000; /* Ensure the nav is above other content */
 }
+
+.main-part {
+  padding: 50px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bolder; 
+}
+.main-part h2 {
+  text-align: center;
+  font-weight: bold; 
+  font-size: 3.0em;
+  color: rgba(8, 4, 81, 0.894);
+  font-family: 'Abril Fatface', serif;
+
+}
+
+.header1 {
+  text-align: center;
   
-  .main-part {
-    padding: 50px;
-    margin-top: 50px;
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: bolder; 
-  }
-  .main-part h2 {
-    text-align: center;
-    font-weight: bolder; 
-  }
+}
+
+
+.information {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 136px;
+  font-size: 1.2em;
+ 
   
-  .header1 {
-    text-align: center;
-    font-size: 1.5em;
-   
-  }
-  .get-in-touch {
-    padding: 20px;
-    margin-top: 20px; /* Add margin to create space from the text above */
-    border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  
+}
+ul ,li{
+list-style-type: none; 
+
+} 
+
+
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+
+footer {
+  margin-top: auto;
+  background-color: rgb(7, 3, 76);
+  color: white;
+  line-height: 2.4;
+  padding: 20px;
+  margin-top: 300px;
+  margin-bottom: 0%;
+}
+
+.rights {
+  font-size: 14px;
+}
+
+.footer-corporate {
+  height: 300px;
+     
+}
+
+#texti {
+  color: white;
+  text-decoration: none;
+}
+
+.section0 {
+  background-color: #F2EFE5;
+  margin: 10px auto;
+  border-radius: 40px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer-corporate-bottom-panel{
+  background-color: rgba(183, 131, 131, 0.248);
+  margin: 0%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+  max-width:  700px;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  background-color:rgba(8, 4, 81, 0.894);
+  color: rgb(247, 247, 255); /* White text color */
+  font-family: cursive;
+}
+
+
+.message {
+  color: rgb(239, 234, 234);
+  font-size: 14px;
+}
+.message::after {
+  color: rgb(239, 234, 234);
+  font-size: 14px;
+}
+.flex {
+  display: flex;
+  width: 100%;
+  gap: 6px;
+}
+
+.form label {
+  position: relative;
+
+}
+
+.form label .input {
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  outline: 0;
+  border: 1px solid  rgb(230, 230, 237);
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.form label .input + span {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  color: rgb(230, 230, 237);
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+  background-color: transparent;
+}
+
+.form label .input:placeholder-shown + span {
+  top: 15px;
+  font-size: 0.9em;
+  color: #F2EFE5;
+}
+
+.form label .input:focus + span,.form label .input:valid + span {
+  top: 30px;
+  font-size: 0.7em;
+  font-weight: 600;
+
+}
+
+
+.input01 {
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  outline: 0;
+  border: 1px solid  rgb(230, 230, 237);
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.form label .input01 + span {
+  position: absolute;
+  left: 10px;
+  top: 50px;
+  color:  rgb(230, 230, 237);
+  font-size: 0.9em;
+  cursor: text;
+  transition: 0.3s ease;
+  
+}
+.form input,
+.form textarea {
+  color: white;
+}
+
+
+.fancy {
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 390;
+  letter-spacing: 2px;
+  margin: 0;
+  outline: none;
+  padding: 8px 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  transition: all 0.3s ease-in-out;
+  user-select: none;
+  font-size: 13px;
+  background-color:  rgba(7, 3, 76, 0.02);
+  
+}
+.fancy::before {
+  width: 1.7rem;
+  height: 2px;
+  top: 50%;
+  left: 1.5em;
+  position: absolute;
+  transform: translateY(-50%);
+  transform: translateX(230%);
+  transform-origin: center;
+  
+}
+
+.fancy .text {
+  font-size: 1.125em;
+  line-height: 1.33333em;
+  padding-left: 2em;
+  display: block;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  text-transform: lowercase;
+  text-decoration: none;
+  transform: translateX(30%);
+  color:  rgb(230, 230, 237);
+
+}
+.fancy:active {
+  background-color: rgba(235, 234, 241, 0.02);
+  color: rgb(239, 235, 235);
 }
 
   
-  .information {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    gap: 136px;
-    font-size: 1.2em;
-    
-  }
- ul ,li{
-  list-style-type: none; 
-  
- } 
-  .contact-us {
-    
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  }
-  
-  .contact-us1 {
-    text-align: center;
-    font-size: 1.5em;
-   
-  }
-  
-  
-  .form-group {
-    margin-bottom: 30px;
-  }
-  
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  footer {
-    margin-top: auto;
-    background-color: #23242d;
-    color: white;
-    line-height: 2.4;
-    padding: 20px;
-    margin-top: 300px;
-    margin-bottom: 0%;
-  }
-  
-  .rights {
-    font-size: 14px;
-  }
-  
-  .footer-corporate {
-    height: 300px;
-       
-  }
-  
-  #texti {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .section0 {
-    background-color: #F2EFE5;
-    margin: 10px auto;
-    border-radius: 40px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-  }
-  
-  .footer-corporate-bottom-panel{
-    background-color: #23242d;
-    margin: 0%;
-  }
+@media screen and (max-width: 320px) {
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url('/img/pexels-eustathia-t-213164514-13058497.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust the opacity by changing the alpha value (0.5 in this example) */
+  z-index: -1; /* Ensure the pseudo-element is behind the content */
+}
+
+footer {
+margin-top: auto;
+background-color: rgb(7, 3, 76);
+color: white;
+line-height: 1.4;
+padding: 15px;
+margin-top: 300px;
+margin-bottom: 0%;
+}
+}
