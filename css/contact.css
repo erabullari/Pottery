@@ -107,13 +107,15 @@ footer {
   background-color: rgb(7, 3, 76);
   color: white;
   line-height: 2.4;
-  padding: 20px;
+  padding: 26px;
   margin-top: 300px;
   margin-bottom: 0%;
 }
 
 .rights {
   font-size: 14px;
+  background-color: rgb(7, 3, 76);
+  color: white;
 }
 
 .footer-corporate {
@@ -150,7 +152,7 @@ footer {
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  background-color:rgba(8, 4, 81, 0.894);
+  background-color:rgba(15, 10, 108, 0.894);
   color: rgb(247, 247, 255); /* White text color */
   font-family: cursive;
 }
@@ -285,7 +287,7 @@ footer {
 }
 
   
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 385px) {
 body{
   font-family: Arial, sans-serif;
   margin: 0;
@@ -318,5 +320,8 @@ line-height: 1.4;
 padding: 15px;
 margin-top: 300px;
 margin-bottom: 0%;
+}
+iframe{
+  width: 100%;
 }
 }
