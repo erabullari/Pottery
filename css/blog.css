@@ -177,6 +177,7 @@
     position:"" ;
     bottom: 0;
     width: 100%;
+    position: fixed;
   }
   
   .footer-basic ul {
@@ -231,4 +232,39 @@
     font-size:13px;
     color:#aaa;
     margin-bottom:0;
+  }
+
+  footer {
+    margin-top: auto;
+    background-color:#0a0a23;
+    color: white;
+    line-height: 2.4;
+    padding: 26px;
+    margin-top: 30px;
+    margin-bottom: 0%;
+  }
+  
+  .rights {
+    font-size: 14px;
+    background-color: #76383e9e;
+    color: white;
+  }
+  iframe{
+    border-radius: 10px;
+  }
+  #texti {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .section0 {
+    background-color: #F2EFE5;
+    margin: 10px auto;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .footer-corporate-bottom-panel{
+    background-color: rgba(183, 131, 131, 0.248);
+    margin: 0%;
   }
