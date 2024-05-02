@@ -4,6 +4,7 @@
 }
 .navbar {
     background: rgb(255,255,255);
+    
    
 }
 .navbar img{
@@ -24,8 +25,9 @@
 #carouselExampleIndicators img{
   display: block;
   width: 100%;
-  height: auto;
+  height: 450%;
 }
+
 #navbarNav  ul ,li{
     
     display: flex;
@@ -182,7 +184,7 @@ margin: 8px 10px 8px 50px;
   /*ina's work */
   .carousel-item img {
     width: 600px;
-    margin: 15px;
+    margin: 0px;
     height: 500px ;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
@@ -225,8 +227,8 @@ margin: 8px 10px 8px 50px;
     background: #2C3639;
     padding: 9px 30px 10px 30px;
     text-decoration: none;
-    margin-left: 262px;
-  margin-top: 61px;
+    margin-left: 413px;
+  margin-top: 70px;
     
   }
   
