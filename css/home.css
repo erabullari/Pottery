@@ -4,6 +4,7 @@
 }
 .navbar {
     background: rgb(255,255,255);
+    
    
 }
 .navbar img{
@@ -24,8 +25,19 @@
 #carouselExampleIndicators img{
   display: block;
   width: 100%;
-  height: auto;
+  height: 1000px;
+  border-radius: 10px;
 }
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  border-radius: 20px;
+  
+}
+
 #navbarNav  ul ,li{
     
     display: flex;
@@ -181,7 +193,7 @@ margin: 8px 10px 8px 50px;
   /*ina's work */
   .carousel-item img {
     width: 600px;
-    margin: 15px;
+    margin: 0px;
     height: 500px ;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
@@ -224,8 +236,8 @@ margin: 8px 10px 8px 50px;
     background: #2C3639;
     padding: 9px 30px 10px 30px;
     text-decoration: none;
-    margin-left: 262px;
-  margin-top: 61px;
+    margin-left: 413px;
+  margin-top: 70px;
     
   }
   
@@ -261,19 +273,32 @@ margin: 8px 10px 8px 50px;
 }
 
 /* Responsiviteti */
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 415px) {
   .secondcontainer{
       margin-top: 0px;
      padding-left: 10px;
      padding-top: 0px;
   }
-  
-    .div1 {
-      max-width: 100%;
-       /* Take up 1 part of the available space */
-     padding: 0px; /* Add some padding */
-  
-    }
+  #carouselExampleIndicators img{
+   display: inline;
+    width: 90%;
+    height: auto;
+  }
+  #carouselExampleIndicators {
+    display: block;
+    border-radius: 10px;
+    padding: 0px;
+    margin: -50px -20px 25px -7px;
+  }
+  .carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 90%;
+    border-radius: 20px;
+    
+  }
+   
     .photo1{
       padding: 34px;
     }
@@ -286,21 +311,45 @@ margin: 8px 10px 8px 50px;
     border-radius: 36px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
      }
+
+     .div1 {
+      padding: 4px 0px 88px;
+    margin: 24px 33px;
+      
+  
+    }
      .div1 h1{
-      margin: -5px -6px 10px ;
-      font-size: 15px;
+      margin: -9px 73px 11px 100px;
+      color: #3D0C11;
+      font-family: cursive;
+      font-weight: bold;
+      font-size: 16px;
       line-height: 1;
-      position: absolute;
+      position: relative;
       padding-top: 0px;
     }
-    .div1 p{
-      margin: 3px -21px 0px ;
+    .div1 h2 {
+      color: #3D0C11;
       font-family: cursive;
-      font-size: 10px;
-      position: absolute;
-      padding-top: 50px;
-      padding-right: 118px;
-      padding-left: 0px;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: center;
+      line-height: 1.;
+      display: block;
+      position: relative;
+      margin: 7px -6px 11px 21px;
+    }
+    .div1 p{
+      margin: -112px 43px -77px 78px;
+    font-family: cursive;
+    font-size: 7px;
+    position: absolute;
+    padding-top: 30px;
+    padding-right: 7px;
+    padding-left: 6px;
+    }
+    .pharagraph1{
+      padding-top: 81px;
     }
     /*fixitin the text at the event part*/
     .card{
@@ -313,12 +362,10 @@ margin: 8px 10px 8px 50px;
       text-align: center;
       
   }
-  .card-text{
-      font-size: 10px;
-  }
+
   .card-title{
       font-weight: bold;
-      font-size: 10px;
+      font-size: 17px;
       font-family: Georgia, serif ;
   }
   .card img{
@@ -327,33 +374,33 @@ margin: 8px 10px 8px 50px;
   .card-text{
       font-family: cursive;
       position: relative;
+      font-size: 16px;
   }
   .card-img-top {
       width: 100%;
       height: 195px;
     }
-  .event-text p {
-      font-size: 8px;
+  .event-text p,h5 {
+      font-size: 15px;
       font-family: cursive;
       align-items: center;
       padding: 0;
       margin: 0;
   }
-  .event-text h5{
-      padding: 0;
-      margin: 0;
-      font-size: 10px;
-      font-family: cursive;
-  }
+ 
   .eventh1{
-     margin-inline-start: 44%;
+     margin-inline-start: 41%;
      margin-top: 10px;
      font-weight: bold;
+     margin-bottom: -4px;
   }
   .sectioncol{
       background-color: #f1e7e1;
       padding-top: 3px;
       width: 104%;
+    }
+    .events-container{
+      flex-wrap: wrap;
     }
 /* fix the products part*/
 /*ina's work */
@@ -397,19 +444,35 @@ margin: 8px 10px 8px 50px;
 }
 .btn {
   
-  margin-left: -1px;
-  margin-top: -551px;
+  margin-left: 147px;
+  margin-top: 11px;
   
   
 }
 .somephoto{
-flex-direction: column;
+flex-wrap: wrap;
+margin: -73px -14px 14px -15px;
 }
 .somephoto img{
 width: 50%;
 }
+footer {
+  line-height: 1.4;
+ 
 }
-@media only screen and (min-width: 414px) and (max-height: 897px) 
+
+iframe{
+  border-radius: 10px;
+  width: 112%;
+  margin-left: -22px;
+}
+
+}
+
+
+
+
+
 { 
  
 #carouselExampleIndicators img{

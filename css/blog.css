@@ -57,8 +57,8 @@ li {
   /* Add some padding */
   margin-top: 20px;
   margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 80px;
+  margin-left: 150px;
+  margin-right: 0px;
   display: flex;
 }
 
@@ -228,8 +228,8 @@ img {
   font-family: 'Times New Roman', Times, serif;
   font-size: 31px;
   font-style: italic;
-  
-  
+  border-left: 2px solid #2C3639 ;
+  border-right: 2px solid #2C3639 ;
 }
 
 .divblog1 h1 {
@@ -469,7 +469,7 @@ iframe {
   }
   
   .blog{
-    display: flex;
+    flex-direction: column;
   }
   
   .divblog {
@@ -645,13 +645,11 @@ iframe {
   
   .divblog p {
   
-    margin: 50px;
-    padding: 50px ;
+    margin: -53px -55px;
+    padding: 14px 18px 39px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 31px;
+    font-size: 13px;
     font-style: italic;
-    
-    
   }
   
   .divblog1 h1 {
