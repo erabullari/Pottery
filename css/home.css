@@ -25,8 +25,22 @@
 #carouselExampleIndicators img{
   display: block;
   width: 100%;
+<<<<<<< HEAD
   height:1000px;
 
+=======
+  height: 1000px;
+  border-radius: 10px;
+}
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  border-radius: 20px;
+  
+>>>>>>> a124f4e89f739623718b94ac1d60d7e3666c1c4b
 }
 
 #navbarNav  ul ,li{
@@ -179,7 +193,6 @@ margin: 8px 10px 8px 50px;
     height: auto;
     margin: 0 auto; /* Center the paragraph horizontally */
     border-bottom: 1px solid #2C3639 ;
-    border-left: 1px solid #2C3639 ;
   }
   
   /*ina's work */
@@ -265,120 +278,348 @@ margin: 8px 10px 8px 50px;
 }
 
 /* Responsiviteti */
-@media screen and (max-width: 412px) {
-    .secondcontainer{
-        margin-top: 0px;
-       padding-left: 10px;
-       padding-top: 0px;
-    }
-    
-      .div1 {
-        max-width: 100%;
-         /* Take up 1 part of the available space */
-       padding: 0px; /* Add some padding */
-    
-      }
-      .photo1{
-        padding: 34px;
-      }
-    .photo1 img {
-      height: 405px;
-      width: 490px;
-      margin-left: 45px;
-      margin-right: 20px;
-      margin-top: 46px;
-      border-radius: 36px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
-       }
-       .div1 h1{
-        margin: -5px -6px 10px ;
-        font-size: 15px;
-        line-height: 1;
-        position: absolute;
-        padding-top: 0px;
-      }
-      .div1 p{
-        margin: 3px -21px 0px ;
-        font-family: cursive;
-        font-size: 10px;
-        position: absolute;
-        padding-top: 50px;
-        padding-right: 118px;
-        padding-left: 0px;
-      }
-      /*fixitin the text at the event part*/
-      .card{
-        margin-top: 20px;
-        margin-bottom: 70px;
-        height: 350px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-    .card-body{
-        text-align: center;
-        
-    }
-    .card-text{
-        font-size: 10px;
-    }
-    .card-title{
-        font-weight: bold;
-        font-size: 10px;
-        font-family: Georgia, serif ;
-    }
-    .card img{
-        height: 160px;
-    }
-    .card-text{
-        font-family: cursive;
-        position: relative;
-    }
-    .card-img-top {
-        width: 100%;
-        height: 195px;
-      }
-    .event-text p {
-        font-size: 8px;
-        font-family: cursive;
-        align-items: center;
-        padding: 0;
-        margin: 0;
-    }
-    .event-text h5{
-        padding: 0;
-        margin: 0;
-        font-size: 10px;
-        font-family: cursive;
-    }
-    .eventh1{
-       margin-inline-start: 44%;
-       margin-top: 10px;
-       font-weight: bold;
-    }
-    .sectioncol{
-        background-color: #f1e7e1;
-        padding-top: 3px;
-        width: 104%;
-      }
-/* fix the products part*/
- /*ina's work */
- .carousel-item img {
-    width: 179px;
-    margin: 84px 31px 0px 38px;
-    height: 239px;
-   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+@media screen and (max-width: 415px) {
+  .secondcontainer{
+      margin-top: 0px;
+     padding-left: 10px;
+     padding-top: 0px;
+  }
+  #carouselExampleIndicators img{
+   display: inline;
+    width: 90%;
+    height: auto;
+  }
+  #carouselExampleIndicators {
+    display: block;
+    border-radius: 10px;
+    padding: 0px;
+    margin: -50px -20px 25px -7px;
+  }
+  .carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 90%;
     border-radius: 20px;
+    
+  }
+   
+    .photo1{
+      padding: 34px;
+    }
+  .photo1 img {
+    height: 405px;
+    width: 490px;
+    margin-left: 45px;
+    margin-right: 20px;
+    margin-top: 46px;
+    border-radius: 36px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+     }
+
+     .div1 {
+      padding: 4px 0px 88px;
+    margin: 24px 33px;
+      
+  
+    }
+     .div1 h1{
+      margin: -9px 73px 11px 100px;
+      color: #3D0C11;
+      font-family: cursive;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 1;
+      position: relative;
+      padding-top: 0px;
+    }
+    .div1 h2 {
+      color: #3D0C11;
+      font-family: cursive;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: center;
+      line-height: 1.;
+      display: block;
+      position: relative;
+      margin: 7px -6px 11px 21px;
+    }
+    .div1 p{
+      margin: -112px 43px -77px 78px;
+    font-family: cursive;
+    font-size: 7px;
+    position: absolute;
+    padding-top: 30px;
+    padding-right: 7px;
+    padding-left: 6px;
+    }
+    .pharagraph1{
+      padding-top: 81px;
+    }
+    /*fixitin the text at the event part*/
+    .card{
+      margin-top: 20px;
+      margin-bottom: 70px;
+      height: 350px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .card-body{
+      text-align: center;
+      
+  }
+
+  .card-title{
+      font-weight: bold;
+      font-size: 17px;
+      font-family: Georgia, serif ;
+  }
+  .card img{
+      height: 160px;
+  }
+  .card-text{
+      font-family: cursive;
+      position: relative;
+      font-size: 16px;
+  }
+  .card-img-top {
+      width: 100%;
+      height: 195px;
+    }
+  .event-text p,h5 {
+      font-size: 15px;
+      font-family: cursive;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+  }
+ 
+  .eventh1{
+     margin-inline-start: 41%;
+     margin-top: 10px;
+     font-weight: bold;
+     margin-bottom: -4px;
+  }
+  .sectioncol{
+      background-color: #f1e7e1;
+      padding-top: 3px;
+      width: 104%;
+    }
+    .events-container{
+      flex-wrap: wrap;
+    }
+/* fix the products part*/
+/*ina's work */
+.carousel-item img {
+  width: 179px;
+  margin: 84px 31px 0px 38px;
+  height: 239px;
+ box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  align-items: center;
+  
+}
+#carouselExample{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.carousel-item p{
+  font-size: 12px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin: -1px 48px 18px;
+
+}
+.element-text{
+  margin-top: 50px;
+  width: 700px;
+  align-items: center;
+}
+
+.element-text h3{
+  text-align:center;
+   color: #2C3639;
+   font-weight: bold;
+   padding-top:10px ;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.carousel-item h3{
+  
+  margin: -50px 48px 18px;
+
+}
+.btn {
+  
+  margin-left: 147px;
+  margin-top: 11px;
+  
+  
+}
+.somephoto{
+flex-wrap: wrap;
+margin: -73px -14px 14px -15px;
+}
+.somephoto img{
+width: 50%;
+}
+footer {
+  line-height: 1.4;
+ 
+}
+
+iframe{
+  border-radius: 10px;
+  width: 112%;
+  margin-left: -22px;
+}
+
+}
+
+
+
+
+
+{ 
+ 
+#carouselExampleIndicators img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
+#texti {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*fixing the text at the event part */
+.card{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    height: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card-body{
+    text-align: center;
+    
+}
+.card-text{
+    font-size: 16px;
+}
+.card-title{
+    font-weight: 600;
+    font-family: Georgia, serif ;
+}
+.card img{
+    height: 160px;
+    
+}
+.card-text{
+    font-family: cursive;
+}
+.card-img-top {
+    width: 100%;
+    height: 195px;
+  }
+.event-text p {
+    font-size: 14px;
+    font-family: cursive;
     align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.event-text h5{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+.eventh1{
+   margin-inline-start: 44%;
+   margin-top: 70px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: #3D0C11;
+   font-weight: bold;
+}
+
+.caroseldiv{
+align-items: center;
+justify-content: center;
+margin: 8px 10px 8px 50px;
+
+}
+.caroseldiv p{
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+   
+}
+.caroseldiv h1{
+    
+    margin-left: 30%;
+   
+}
+/* soni's work*/
+  .div1 {
+    flex: 0; /* Take up 1 part of the available space */
+    padding: 10px; /* Add some padding */
+    margin: -2px -236px;
+  
+    text-align: center;
+   
+
+  }
+  
+  .div1 h1{
+    color: #3D0C11;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .div1 h2{
+    color: #3D0C11;
+    font-family:cursive;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.;
+    display: inline-block;
+  }
+
+  .div1 p{
+    font-family: cursive;
+    font-size: 18px;
+    padding: 20px;
+    margin: 20px;
+    width: 50%; 
+    height: auto;
+    margin: 0 auto; /* Center the paragraph horizontally */
+    border-bottom: 1px solid #2C3639 ;
+  }
+  
+  /*ina's work */
+  .carousel-item img {
+    width: 600px;
+    margin: 15px;
+    height: 500px ;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    object-fit: cover;
     
   }
 #carouselExample{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-bottom: 0;
 }
   .carousel-item p{
-    font-size: 12px;
+    font-size: 15px;
+    margin:25px  ;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    margin: -1px 48px 18px;
   
   }
 .element-text{
@@ -391,64 +632,55 @@ margin: 8px 10px 8px 50px;
     text-align:center;
      color: #2C3639;
      font-weight: bold;
-     padding-top:10px ;
      font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.carousel-item h3{
     
-    margin: -50px 48px 18px;
-  
-  }
+
+}
 .btn {
     
-    margin-left: -1px;
-    margin-top: -551px;
-    
+    -webkit-border-radius: 19;
+    -moz-border-radius: 19;
+    border-radius: 19px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 22px;
+    background: #2C3639;
+    padding: 9px 30px 10px 30px;
+    text-decoration: none;
+    margin-left: 262px;
+  margin-top: 61px;
     
   }
-.somephoto{
-  flex-direction: column;
-}
-.somephoto img{
-  width: 50%;
-}
-}
-@media screen and (min-width: 1440px) {
-    body{
-   
-    }
-    p{
-        font-size: 20px;
-    }
-    h1{
-       
-    }
-}
-
-
-@media screen and (max-width: 320px) {
-    body{
-    
-    }
-    p{
-        font-size: 20px;
-    }
-}
-
-@media screen and (min-width: 321px)  and (max-width: 768px){
-    body{
   
-    }
-    p{
-        font-size: 20px;
-    }
+  .btn:hover {
+    background: #C8AE7D;
+    text-decoration: none;   
+    
+  }
+  #carouselExample{
+
+    padding: 0;
+   
+  }
+  .sectioncol{
+    background-color: #f1e7e1;
+    padding-top: 4px;
+  }
+  .element-text1{
+    margin: 50px 30px;
+  }
+  .element-text1 h4{
+    text-align: center;
+  }
+
+
+.inaCarosel img{
+    width: 50%;
+    margin-left: 40px;
+    object-fit: cover;
+}
+.element-text{
+    width: 50%;
 }
 
-@media screen and (min-width: 769px)  and (max-width: 1024px){
-    body{
-       
-    p{
-        font-size: 20px;
-    }
-}
-}
+ }
