@@ -20,16 +20,18 @@
     font-weight: bold;
     margin: 10px 0;
 }
-
+#navbarNav  ul ,li{
+    
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 #carouselExampleIndicators img{
   display: block;
   width: 100%;
-<<<<<<< HEAD
   height:1000px;
-
-=======
-  height: 1000px;
   border-radius: 10px;
 }
 .carousel-item {
@@ -40,16 +42,8 @@
   margin-right: -100%;
   border-radius: 20px;
   
->>>>>>> a124f4e89f739623718b94ac1d60d7e3666c1c4b
 }
 
-#navbarNav  ul ,li{
-    
-    display: flex;
-    justify-content: space-between;
-    font-weight: bold;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 ul {
     list-style-type: none; /* removes bullet points */
     width: 100%; /* makes the list take up the full width of its parent */
@@ -241,7 +235,7 @@ margin: 8px 10px 8px 50px;
     background: #2C3639;
     padding: 9px 30px 10px 30px;
     text-decoration: none;
-    margin-left: 413px;
+    margin-left: 350px;
   margin-top: 70px;
     
   }

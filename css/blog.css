@@ -552,7 +552,7 @@ iframe {
     
     .h2blog{
   
-      font-family:Brush Script MT,Brush Script Std,cursive;
+      font-family: Brush Script MT,Brush Script Std,cursive;
       font-size: 30px;
       text-align: center;
       text-transform: uppercase;
@@ -680,6 +680,10 @@ iframe {
     border-bottom: 4px solid #fdb347;
     font-family: Brush Script MT, Brush Script Std, cursive;
     font-style: oblique;
+  }
+  iframe {
+    border-radius: 10px;
+    width: 100%;
   }
 
 }
