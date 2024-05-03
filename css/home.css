@@ -25,10 +25,8 @@
 #carouselExampleIndicators img{
   display: block;
   width: 100%;
-<<<<<<< HEAD
   height:1000px;
 
-=======
   height: 1000px;
   border-radius: 10px;
 }
@@ -40,7 +38,6 @@
   margin-right: -100%;
   border-radius: 20px;
   
->>>>>>> a124f4e89f739623718b94ac1d60d7e3666c1c4b
 }
 
 #navbarNav  ul ,li{
